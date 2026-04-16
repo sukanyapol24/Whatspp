@@ -35,7 +35,7 @@ export default function ContactForm() {
         placeholder="Name"
         onChange={handleChange}
         required
-        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
       />
       <input
         name="email"
@@ -44,7 +44,7 @@ export default function ContactForm() {
         onChange={handleChange}
         required
         type="email"
-        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
       />
       <input
         name="mobile"
@@ -53,7 +53,7 @@ export default function ContactForm() {
         onChange={handleChange}
         required
         type="tel"
-        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
       />
       <p className="text-sm text-gray-500">Example: 918088147241 (no + or spaces)</p>
       <textarea
@@ -68,7 +68,7 @@ export default function ContactForm() {
 
       <button
         type="submit"
-        className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-md transition duration-200"
+        className="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-md transition duration-200"
       >
         Send to WhatsApp
       </button>
