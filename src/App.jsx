@@ -1,0 +1,16 @@
+import ContactForm from "./ContactForm";
+
+function App() {
+  return (
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+        <div className="p-6">
+          <h1 className="text-2xl font-bold text-gray-900 mb-4">Contact Us</h1>
+          <ContactForm />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
